@@ -61,6 +61,10 @@ The project will use the CRISP-DM that is Cross-Industry Standard Process for Da
 | ---- | ---- | ----|
 |![Ripple](<Images/Readme images/1. Univariate Analysis/Ripple Price_distribution.png>)|![Tether](<Images/Readme images/1. Univariate Analysis/Tether Price_distribution.png>)|![Cardano](<Images/Readme images/1. Univariate Analysis/Cardano Price_distribution.png>)| 
 
+|Binancecoin | | |
+| --- | --- | --- |
+|<img src="Images/Readme images/1. Univariate Analysis/Binancecoin Price_distribution.png" width="500" height="300"> | | |
+
 >                       🌟 **BIVARIATE ANALYSIS OF PRICE FEATURE** 🌟
 
 | Bitcoin vs Binancecoin | Bitcoin vs Dogecoin | Bitcoin vs Ethereum |
@@ -80,6 +84,32 @@ The models used are:
   *   SARIMA ➤ Seasonal Auto Regressive Integrated Moving Average 
   *   Prophet Time Series Model  
  
+>                       🌟 **ARIMA / SARIMA MODELS** 🌟
+| Bitcoin | Binancecoin | 
+| ---- | ---- |
+|![Bitcoin](<Images/Readme images/4. Arima, Sarima models/1. Bitcoin Forecast.png>) |![Binancecoin](<Images/Readme images/4. Arima, Sarima models/6. Binancecoin Forecast.png>) | 
+
+| Dogecoin | Ethereum |
+| ---- | ---- |
+| ![Dogecoin](<Images/Readme images/4. Arima, Sarima models/5. Dogecoin Forecast.png>) | ![Ethereum](<Images/Readme images/4. Arima, Sarima models/2. Ethereum Forecast.png>) |
+
+| Ripple | Tether | Cardano |
+| --- | --- | --- |
+| ![Ripple](<Images/Readme images/4. Arima, Sarima models/7. Ripple Forecast.png>) | ![Tether](<Images/Readme images/4. Arima, Sarima models/4. Tether Forecast.png>) | ![Cardano](<Images/Readme images/4. Arima, Sarima models/3.Cardano Forecast.png>) |
+
+>                       🌟 **PROPHET TIME SERIES MODEL** 🌟
+| Bitcoin | Binancecoin | 
+| ---- | ---- | 
+| ![Bitcoin](<Images/Readme images/5. Prophet Model/1. Bitcoin Forecast.png>) | ![Binancecoin](<Images/Readme images/5. Prophet Model/6. Binancecoin Forecast.png>) | 
+
+| Dogecoin | Ethereum |
+| ---- | ---- |
+|![Dogecoin](<Images/Readme images/5. Prophet Model/5. Dogecoin Forecast.png>) | ![Ethereum](<Images/Readme images/5. Prophet Model/2. Ethereum Forecast.png>) |
+
+| Ripple | Tether | Cardano | 
+| ---- | ---- | ---- |
+|![Ripple](<Images/Readme images/5. Prophet Model/7. Ripple Forecast.png>) |![Tether](<Images/Readme images/5. Prophet Model/4. Tether Forecast.png>) | ![Cardano](<Images/Readme images/5. Prophet Model/3. Cardano Forecast.png>) |
+
 We concluded on the prophet Time Series Model  
 
 > ### CONCLUSION
