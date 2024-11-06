@@ -15,9 +15,13 @@
 * Our proposed application, CryptoRisk Analyzer, aims to provide a comprehensive risk analysis tool for the top trading cryptocurrencies. 
 * By leveraging time series forecasting and machine learning metrics, this app will help users compare cryptocurrencies and assess their potential risks before making investment decisions.
 
-> ### KEY FEATURES
+> ### BUSINESS PROBLEM
+* Analyze and predict trends in cryprocurrency markets using historical data.
+* Create a web application to show the predictions of the cryptocurrency prices.
+
+> ### KEY OBJECTIVES
 1. Time Series Analysis: Utilize historical price data for top cryptocurrencies (e.g., Bitcoin, Ethereum, Cardano) to identify trends, seasonality, and volatility. This will form the basis for forecasting future prices.
-2. Machine Learning Integration: Implement machine learning models, such as ARIMA, LSTM, and regression analysis, to predict future price movements. Metrics such as Mean Squared Error (MSE) will measure the accuracy of these predictions, allowing users to gauge the reliability of forecasts.
+2. Machine Learning Integration: Implement machine learning models, such as ARIMA, SARIMA and Prophet Time series model, to predict future price movements. Metrics such as Mean Squared Error (MSE) and Root Mean Squared Error (RMSE) will measure the accuracy of these predictions, allowing users to gauge the reliability of forecasts.
 3. Risk Assessment Metrics: Calculate risk factors based on volatility, drawdowns, and historical performance. Provide users with an intuitive risk score for each cryptocurrency, helping them to evaluate their risk tolerance.
 4. Cryptocurrency Comparison: Users can select two cryptocurrencies for side-by-side comparison. The app will generate a comprehensive report detailing the predicted price movements, risk assessments, and machine learning accuracy metrics (e.g. MSE).
 5. User-Friendly Interface: A web-based application with an intuitive UI will allow users to easily navigate through different cryptocurrencies, access analysis reports, and visualize historical trends through interactive graphs and charts.
