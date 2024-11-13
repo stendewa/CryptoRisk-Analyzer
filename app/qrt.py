@@ -23,7 +23,7 @@ cg = CoinGeckoAPI()
 logging.basicConfig(level=logging.INFO)
 
 # Set API keys and endpoints
-NEWS_API_KEY = 
+NEWS_API_KEY = 'b814c3739ba54cbf8f8b458c6ce9818c'
 NEWS_API_URL = 'https://newsapi.org/v2/everything'
 COINGECKO_API_URL = 'https://api.coingecko.com/api/v3/coins/markets'
 
